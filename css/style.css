@@ -1,0 +1,1040 @@
+body {
+  font-family: 'Raleway', sans-serif;   
+  background-color: #fff;
+  color: #444;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 16px;
+
+}
+
+.navbar-default {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+}
+
+.navbar-right {
+  margin-top: 10px; 
+}
+
+.botones-contact .btn-info {
+  display: inline-flex;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #24bec6;
+  padding: 5px;
+  border-bottom: 4px solid #0a9999;
+
+}
+.botones-contact .btn-info span {
+  margin-right: 14px;
+    padding-left: 6px;
+}
+
+.botones-contact p {
+  margin-top: 3px;
+  border-bottom: 2px solid #fff;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+
+
+.colegio-home-btn span {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+/*Botones
+*/
+
+.section-solicitar-info {
+  margin-top: 50px;
+}
+.solicitar-info {
+  border-radius: 0px;
+  border-color: transparent;
+  background-color: #2dd0a5;
+  display: inline-flex;
+  border-bottom: 4px solid #24aa83;
+}
+.solicitar-info p {
+  margin-top: 5px;
+  border-bottom: 2px solid #fff;
+  font-size: 18px;
+
+}
+
+.solicitar-info span{ 
+  margin-right: 9px;
+}
+
+/*End Botones
+*/
+
+
+
+/*section home*/
+
+#home {
+  margin-top: 70px;
+  width: 100%;
+  height: 720px;
+  background-image: url('../img/fondo.png');
+  background-size: cover;
+  background-position: top;
+  
+}
+
+.contenedor-izquierdo {
+  margin-top: 70px;
+}
+
+#home .contenedor-izquierdo .thumbnail {
+  background: transparent;
+  border: none;
+}
+
+#home .contenedor-izquierdo .thumbnail h3{
+  text-align: center;
+  font-family: 'lato', bold;
+  font-weight: 800;
+  font-size: 31px;
+  color: #24bec6;
+  border-bottom: 3px solid #24bec6;
+  margin-top: 5px;
+  width: 164px;
+}
+
+#home .iconos-sup {
+  text-align: center;
+}
+
+#home .contenedor-izquierdo .caption {
+
+  text-align: -webkit-center;
+}
+
+.formulario-ingreso .panel-body {
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  width: 99.9%;
+}
+
+.formulario-ingreso .panel-heading {
+  background-color: #f2f2f2;
+  font-size: 25px;
+  border-radius: 0px;
+
+
+}
+.formulario-ingreso .panel-heading h3 {
+  font-size: 22px;
+  color: #515151;
+
+}
+.formulario-ingreso .panel-default {
+  background-color:  #f2f2f2;
+  border-radius: 0px;
+  
+}
+
+
+
+
+.formulario-ingreso .btn-registros {
+  margin-top: 2px;
+  background-color: #63a7de;
+  border-bottom: 3px solid #3d90c9;
+  border-radius: 0px;
+  font-family: 'lato';
+  display: inline-flex;
+  font-size: 120%;  
+}
+.formulario-ingreso .btn-registros p{
+  margin-top: 3px;
+  border-bottom: 2px solid #fff;  
+}
+.formulario-ingreso span {
+  margin-right: 10px;
+}
+
+.conten-btn {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.conten-btn-cont {
+  margin-top: 20px; 
+  text-align: center;
+  width: 100%;
+
+}
+
+.btn-solicitar {
+  margin-top: 70px;
+  background-color: transparent;
+  border-color: #24bec6;
+  border-style: solid;
+  border-bottom: 3px solid #24bec6;
+  color: #24bec6;
+  border-radius: 0px;
+  font-family: 'lato';
+  display: inline-flex;
+  font-size: 19px;
+
+}
+.btn-solicitar p {
+  padding: 0px 8px 1px 8px; 
+  margin-bottom: 4px;
+}
+
+.text-inicio h1 {
+  font-size: 23px;
+  text-align: center;
+  color: #2dd0a5;
+}
+
+.text-inicio h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+}
+
+
+
+.ca3-scroll-down-arrow {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ca3-scroll-down-link {
+  cursor:pointer;
+  height: 60px;
+  width: 80px;
+  margin: 0px 0 0 -40px;
+  line-height: 60px;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  color: #FFF;
+  text-align: center;
+  font-size: 70px;
+  z-index: 100;
+  text-decoration: none;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+  -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+  -moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+  animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes ca3_fade_move_down {
+  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+}
+@-moz-keyframes ca3_fade_move_down {
+  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,20px); opacity: 0; }
+}
+@keyframes ca3_fade_move_down {
+  0%   { transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,20px); opacity: 0; }
+}
+
+/* end section home*/
+
+/*section education
+*/
+
+#education {
+  background-image: url('../img/bg-education.png');
+  background-size: cover;
+  background-position: top;
+  height: 969px;
+}
+
+#education .title-pag {
+  font-size: 35px;
+  color: #27a2ba;
+  margin-top: 60px;
+  font-family: 'lato';
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#education .sub-title {
+  font-size: 21px;
+  text-align: center;
+  color: #27a2ba;
+  font-family: 'lato';
+}
+
+.title-style {
+  font-weight: bold;
+}
+
+.sub-title-list {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #27a2ba;
+  padding: 8px 0px 8px 0px;
+  width: 70%;
+  margin-left: auto;
+  font-family: 'lato';
+  font-style: italic;
+}
+
+.listas-education {
+  margin-top: 60px;
+}
+
+.listas-education ul {
+  margin-top: 30px;
+}
+
+.listas-education li {
+  color: #444444;
+  font-size: 15px;
+  margin-top: 5px;
+  list-style-image: url("../img/listas/lista.png");
+}
+
+.form-inline {
+  margin-top: 20px;
+}
+
+.form-contact .form-inline .form-control {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.form-contact .form-group {
+  width: 40%;
+  border: 0.7px solid  #9b9b9b;
+}
+
+.form-contact input::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #686868;
+  font-family: 'lato';
+  font-style: italic;
+  
+}
+
+.form-contact input {
+  height: 50px;
+}
+.form-contact .btn-info {
+  border-radius: 0px;
+  height: 50px;
+  font-size: 19px;
+  background-color: rgb(99, 167, 222);
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding: 3px 20px 3px 20px;
+  font-weight: bold;
+} 
+
+.form-contact .correo{
+  background-image: url('../img/icon-correo.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position: 4px;
+  padding-left: 35px;
+  width: 100%;
+}
+
+.form-contact .celular {
+  background-image: url('../img/celular.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position: 4px;
+  padding-left: 35px;
+  width: 100%;
+}
+
+/* END section education
+*/
+
+
+/*section usuarios
+*/
+#usuarios {
+
+  background-color: #ffffff;
+}
+
+#usuarios h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+#usuarios h2 {
+  font-family: 'lato';
+  font-weight: lighter;
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  color: #999999;
+  margin-top: 0px;
+}
+
+.actions {
+  font-family: 'lato';
+  font-size: 30px;
+  font-weight: bold;
+  color: #75a2c6;
+}
+.separador {
+  width: 25%;
+  border-bottom: 3px solid #4e81b4;
+}
+
+.tajetas-cant-usuarios {
+  text-align: center;
+  margin-top: 50px;
+}
+.tajetas-cant-usuarios .thumbnail {
+  padding: 5px 57px 5px 57px;
+  border: none;
+}
+.tajetas-cant-usuarios .caption {
+  border: 1px solid #eeeeee;
+  background-color: #edefef;
+  border-radius: 8px 8px 0px 0px;
+  -webkit-box-shadow: 0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+}
+
+.tajetas-cant-usuarios .caption h3 {
+  font-family: 'lato';
+  font-weight: bold;
+  font-size: 60px;
+  color: #4e81b4;
+}
+.tajetas-cant-usuarios .caption p {
+  font-family: 'lato';
+  font-size: 22px;
+  color: #999999;
+}
+
+.separadores {
+  border-bottom: 5px solid #4e81b4;
+}
+
+/* End section usuarios
+*/
+
+/*section colegios
+*/
+#colegios {
+  background-color: #fff;
+}
+.colegios-consistema {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.colegios-consistema img {
+  filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+
+}
+
+.colegios-consistema img:hover {
+  filter: grayscale(0%);
+   -webkit-filter: grayscale(0%);
+  
+}
+/*end section colegios
+*/
+
+/*section facil
+*/
+#facil {
+  background-color: #27a2ba;
+  height: auto;
+  
+}
+
+.texto-lateral h1 {
+  font-size: 45px;
+  line-height: 50px;
+  text-align: left;
+  font-family: 'lato';
+  color: #fff;
+  width: 90%;
+  margin-top: 90px;
+}
+.texto-lateral strong {
+  font-family: 'lato';
+  font-style: italic; 
+}
+
+.separador-title {
+  border: 3px solid #098c96;
+  width: 60%;
+  float: left;margin-top: 2px;
+}
+.img-lateral {
+  text-align: center;
+  margin-top: 110px;
+  float: right;
+}
+.parrafos {
+  margin-top: 70px;
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Droid Serif', serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  text-align: left;
+
+}
+#facil .section-solicitar-info {
+  margin-top: 0px;
+  
+}
+
+/* END section facil
+*/
+
+/*SECTION interactivo
+*/
+#interactivo {
+  background-color: #eeeeee;
+  height: 580px;
+}
+#interactivo .texto-lateral-izq {
+  text-align: right;
+}
+#interactivo .texto-lateral-izq h1 {
+  font-size: 45px;
+  line-height: 50px;
+  text-align: right;
+  font-family: 'lato';
+  color: #27a2ba;
+  margin-top: 90px;
+}
+.texto-lateral-izq strong {
+  font-style: italic;
+}
+.separador-title-izq {
+  width: 40%;
+  border: 3px solid #1794a5;
+  float: right;
+  margin-top: 0px;
+}
+
+.parrafos-izq {
+  margin-top: 70px;
+  color: #919191;
+  font-size: 24px;
+  font-family: 'Droid Serif', serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  text-align: right;
+
+}
+.img-lateral-izq {
+  margin-top: 240px;
+}
+#interactivo .section-solicitar-info {
+  float: right;
+}
+
+/* END SECTION interactivo
+*/
+
+
+
+/*section ificiente
+*/
+
+#eficiente {
+  background-color: #fff;
+}
+
+#eficiente .texto-lateral h1 {
+  color: #4e81b4;
+  font-size: 40px;
+  
+}
+
+#eficiente .separador-title {
+  border: 3px solid #4e81b4;
+  width: 50%;
+}
+
+.parrafos-der {
+  color: #636363;
+  margin-top: 100px;
+  font-size: 22px;
+  font-family: 'Droid serif', serif;
+  font-weight: 100;
+
+}
+
+#eficiente  .solicitar-info {
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+}
+
+#eficiente .form-contact {
+  margin-bottom: 25px;
+}
+
+/*end section .ificiente 
+*/
+
+/*section Testimonios
+*/
+
+#testimonios {
+  height: auto;
+  background-color: #21475a;
+}
+#testimonios h1 {
+  font-size: 30px;
+  color: #7edce0;
+  text-align: center;
+  margin-top: 60px;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+#testimonios strong {
+  
+  font-style: normal;
+}
+
+.testimonio-students {
+  text-align: center;
+}
+
+.testimonio-students .thumbnail {
+  margin: 40px 40px 70px 40px;
+    background-color: #f1f0f0;
+    -webkit-box-shadow: 0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+}
+
+.testimonio-students .thumbnail h3 {
+  font-size: 19px;
+  font-style: italic;
+  font-weight: bold;
+  color: #606060;
+}
+.testimonio-students .thumbnail p {
+  font-size: 16px;
+  font-family: 'Droid serif';
+  color: #3a3a3a;
+  text-align: justify;
+}
+.separador-testimonio {
+  border: 3px solid #e2e2e2;
+  width: 50%;
+  margin-top: 0px;
+}
+
+/* end section Testimonios
+*/
+
+/*---------------------------------->*/
+
+
+/*section como utilizar*/
+
+#comoUtilizar {
+  height: auto;
+  background-color: #27a2ba;
+}
+
+#comoUtilizar h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  margin-top: 80px;
+  font-family: 'lato';
+  margin-bottom: 9px; 
+}
+
+/*#comoUtilizar hr {
+  width: 48%;
+  border: 2px solid #fff;
+  margin-top: 0px;  
+}*/
+
+.nav>li>a:focus, .nav>li>a:hover {
+  border: 1px solid #fff;
+  background-color: transparent;
+  border: transparent;
+  
+}
+
+
+#comoUtilizar .nav-tabs>li {
+  display: inline-flex;
+  float: none;
+  font-size: 23px;
+  text-align: center;
+  padding-left: 35px;
+}
+
+#comoUtilizar .nav-tabs>li>a:hover {
+  color: #fff;
+  border-bottom: 4px solid #fff;
+}
+
+#comoUtilizar .nav-tabs>li>a {
+  color: #036870;
+  text-align: center;
+}
+#comoUtilizar .nav-tabs {
+  text-align: center;
+  margin-top: 60px;
+}
+#comoUtilizar .title-text {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  font-family: 'lato';
+  font-style: italic;
+}
+
+.info-usar {
+  background-color: #041256;
+  border-bottom: 4px solid #203275;
+}
+
+#comoUtilizar .nav-tabs > li.active > a,
+#comoUtilizar .nav-tabs > li.active > a:hover,
+#comoUtilizar  .nav-tabs > li.active > a:focus {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: default;
+  border-bottom: 4px solid #fff;
+
+}
+
+/* end section como utilizar*/
+
+
+/*section usuarios
+*/
+
+#usan-sistemas {
+  background-image: url('../img/img-colegio-trabajan.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 630px;
+}
+
+
+img.icon-mas {
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.cont-mas-colegios {
+  margin-top: 200px;
+}
+
+#usan-sistemas .cont-mas-colegios h1 {
+  font-size: 50px;
+  color: #03183f;
+  font-family: 'lato';
+  font-weight: bold;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+
+#usan-sistemas .cont-mas-colegios h2 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #03183f;
+  font-family: 'lato';
+  text-align: center;
+   
+}
+
+#usan-sistemas .cont-mas-colegios strong {
+  font-weight: bold; 
+   
+}
+
+.separador-footer {
+  border-bottom: 4px solid #06e5fc;
+  width: 60%;
+  margin-top: 0px;
+}
+
+
+
+
+footer {
+  background-color: transparent;
+  text-align: center;
+  margin-top: -100px;
+}
+
+footer p{
+  color: #6d6d6d;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+/*end section usiarios
+*/
+
+
+
+/*responsive
+*/
+
+@media (max-width: 992px) {
+
+  #home { 
+  height: 920px;  
+}
+.formulario-ingreso .panel-heading h3 {
+  font-size: 20px;
+}
+
+.flecha {
+  display: none;
+}
+
+.btn-solicitar {
+  margin-bottom: 30px;
+  margin-top: 6px;
+}
+
+.sub-title-list {
+  margin: auto;
+}
+
+}
+
+@media (max-width: 768px) {
+
+.botones-contact {
+  margin-left: 18%;
+  margin-bottom: 10%;
+}
+
+.icon-home {
+  display: none;
+}
+
+.formulario-ingreso .panel-body {
+
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  width: 99.9%;
+  height: auto;
+  margin-bottom: 500px;
+
+}
+
+
+#home {
+  margin-top: 70px;
+  width: 100%;
+  height: 830px; 
+  
+}
+
+.flecha {
+  margin-top: 9000px;
+  display: none;
+}
+.btn-solicitar {
+  margin-bottom: 30px;
+  margin-top: 6px;
+}
+.botones-contact .btn-info {
+  width: 256px;
+  text-align: center;
+}
+.pruebas-form {
+  margin: 30px 170px 30px 170px;
+}
+.sub-title-list {
+  margin: auto;
+}
+
+.section-solicitar-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#education {
+  height: auto;
+}
+
+.texto-lateral h1 {
+  font-size: 29px;
+  line-height: 34px;
+  width: 100%;
+}
+
+#facil .section-solicitar-info {
+  margin-top: 30px;
+}
+#facil .form-contact {
+  margin-bottom: 13px;
+}
+
+#interactivo .texto-lateral-izq h1 {
+  font-size: 29px;
+  line-height: 33px;
+  text-align: right;
+}
+#interactivo .texto-lateral-izq h1 br {
+  display: none;
+}
+#interactivo {
+  height: auto;
+}
+
+.img-lateral-izq {
+  display: none;
+}
+.testimonio-students .thumbnail {
+  margin: 10px 0px;
+  margin-bottom: 40px;
+}
+
+
+}
+
+
+@media (max-width: 640px) {
+
+  #home {
+  margin-top: 70px;
+  width: 100%;
+  height: 880px; 
+}
+
+#interactivo {
+  background-color: #eeeeee;
+  height: auto;
+}
+
+.btn-solicitar {
+  margin-top: 13px;
+}
+.botones-contact .btn-info {
+  width: 230px;
+}
+
+#education {
+  height: auto;
+  background-image: none;
+  background-color: #eeeeee;
+}
+#education .form-contact {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+#education .form-contact .form-group {
+  width: 80%;
+}
+
+#facil .form-contact {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+#facil .form-contact .form-group {
+  width: 80%;
+}
+
+#interactivo .section-solicitar-info {
+  float: none;
+}
+
+#interactivo  .form-contact {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+#interactivo  .form-contact .form-group {
+  width: 80%;
+}
+
+
+#eficiente  .form-contact {
+  text-align: center;
+  text-align: -webkit-center;
+  margin-bottom: 20px;
+}
+
+#eficiente  .form-contact .form-group {
+  width: 80%;
+}
+
+#comoUtilizar  .form-contact {
+  text-align: center;
+  text-align: -webkit-center;
+  margin-bottom: 20px;
+}
+
+#comoUtilizar  .form-contact .form-group {
+  width: 80%;
+}
+
+
+}
+
+@media (max-width: 480px) {
+
+#education .title-pag {
+    font-size: 33px;
+}
+#comoUtilizar .title-text {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#comoUtilizar .nav-tabs>li {
+    font-size: 18px;
+    padding-left: 2px;
+}
+  
+}
+
+
